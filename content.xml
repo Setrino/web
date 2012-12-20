@@ -1,18 +1,41 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- exemple emprunté à http://www.w3schools.com/xsl/xsl_for_each.asp -->
-<!-- le lien vers la feuille de style XSL -->
-<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="content_style.xsl" ?>
 
-<d2p1:Application xmlns:d2p1="d2p1"> 
- <d2p1:Identifier>0001482022534</d2p1:Identifier> 
- <d2p1:Channel>Web</d2p1:Channel> 
- <d2p1:Type>Change</d2p1:Type> 
- <d2p1:Status>Received</d2p1:Status> 
- <d2p1:Value>Received</d2p1:Value> 
- <d2p1:FilterList> 
-  <d2p1:Filter>Channel</d2p1:Filter> 
-  <d2p1:Filter>Type</d2p1:Filter> 
-  <d2p1:Filter>Value</d2p1:Filter> 
- </d2p1:FilterList> 
-</d2p1:Application>
-
+<content>
+	<item>
+		<choice>1</choice>
+		<type>hidden</type>
+		<link>http://fk.com</link>
+		<input>
+			<type>text</type>
+			<value>4</value>
+			<placeholder>site</placeholder>
+			<id>tag</id>
+			<name>tag</name>
+		</input>
+	</item>
+	<item>
+		<choice>2</choice>
+		<type>submit</type>
+		<link>http://fk.com/1</link>
+		<input>
+			<type>button</type>
+			<value>5</value>
+			<placeholder>site</placeholder>
+			<id>you</id>
+			<name>you</name>
+		</input>
+	</item>
+	<item>
+		<choice>3</choice>
+		<type>date</type>
+		<link>http://fk.com/2</link>
+		<input>
+			<type>password</type>
+			<value>6</value>
+			<placeholder>site</placeholder>
+			<id>there</id>
+			<name>there</name>
+		</input>
+	</item>
+</content>
