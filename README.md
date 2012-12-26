@@ -1,5 +1,5 @@
-web
+Web design
 ===
 
-XSL, XML, Javascript, PHP
+HTML, XSL, XML, Javascript, PHP
 
